@@ -273,14 +273,14 @@ p {
 	padding: 100px 0;
 }
 #services .service-top {
-	max-width: 680px;
+	max-width: 900px;
 	margin: 0 auto;
     padding: 5px;
 
 }
 
 #services .service-bottom1 {
-	max-width: 750px;
+	width: 800px;
 	margin: 0 auto;
     text-align: center;
 }
@@ -316,6 +316,11 @@ p {
 	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
 	opacity: .9;
 	z-index: -1;
+}
+#services .ku-embed {
+    width: 100%;
+    height: 506.25px;
+    float: inherit
 }
 #services .service-bottom .icon {
 	height: 80px;
@@ -417,8 +422,8 @@ p {
 
 /* Style the buttons that are used to open and close the accordion panel */
 #faq .accordion {
-  background-color: #eee;
-  color: #444;
+  background-color: #29323c;
+  color: white;
   cursor: pointer;
   padding: 18px;
   width: 100%;
@@ -430,7 +435,7 @@ p {
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 #faq .active, .accordion:hover {
-  background-color: #ccc;
+  background-color: #66cd9a;
 }
 
 /* Style the accordion panel. Note: hidden by default */
@@ -443,15 +448,15 @@ p {
 }
 
 #faq .accordion:after {
-  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  content: '\002B'; /* Unicode character for "plus" sign (+) */
   font-size: 13px;
-  color: #777;
+  color: white;
   float: right;
   margin-left: 5px;
 }
 
 #faq .active:after {
-  content: "\2796"; /* Unicode character for "minus" sign (-) */
+  content: "\2212"; /* Unicode character for "minus" sign (-) */
 }
 
 /* End FAQ section */
@@ -601,6 +606,7 @@ p {
 		margin: 2.5%;
 	}
 	/* End Services Section */
+    
 
 	/* Project */
 	#projects .project-item {
