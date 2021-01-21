@@ -449,10 +449,11 @@ p {
 
 #faq .accordion:after {
   content: '\002B'; /* Unicode character for "plus" sign (+) */
-  font-size: 13px;
+  font-size: 16px;
   color: white;
   float: right;
   margin-left: 5px;
+  text-align: left;
 }
 
 #faq .active:after {
@@ -719,6 +720,5 @@ p {
 		margin: 1.5%;
 	}
 }
-
 
 /* End  Media Query For Desktop */
