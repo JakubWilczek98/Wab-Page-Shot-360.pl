@@ -273,12 +273,16 @@ p {
 	padding: 100px 0;
 }
 #services .service-top {
-	max-width: 700px;
+	max-width: 680px;
 	margin: 0 auto;
+    padding: 5px;
+
 }
+
 #services .service-bottom1 {
 	max-width: 750px;
 	margin: 0 auto;
+    text-align: center;
 }
 #services .service-bottom {
 	display: flex;
@@ -403,14 +407,10 @@ p {
 }
 /* End Projects section */
 
-/* About Section */
-#about .about {
-	flex-direction: column-reverse;
-	text-align: center;
-	max-width: 1200px;
-	margin: 0 auto;
-	padding: 100px 20px;
-}
+/* FAQ Section */
+
+
+/* End FAQ section */
 /* contact Section */
 #contact .contact {
 	flex-direction: column;
@@ -543,8 +543,8 @@ p {
 	}
 	h1.section-title {
 		font-size: 6rem;
+        padding: 5px;
 	}
-
 	/* Hero */
 	#hero h1 {
 		font-size: 7rem;
